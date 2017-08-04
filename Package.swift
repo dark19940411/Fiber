@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Fiber"
+    name: "Fiber",
+    dependencies: [
+        .Package(url: "https://github.com/jatoben/CommandLine", "3.0.0-pre1")
+    ]
 )
