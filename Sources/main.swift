@@ -1,18 +1,10 @@
 import Foundation
-import CommandLineKit
+import Alamofire
 
-let cli = CommandLineKit.CommandLine()
+let downloadLink = fetchURLStr()
 
-let linkStr = StringOption(shortFlag: "l", longFlag: "link", required: true,
-                            helpMessage: "Given URL for downloading.")
-
-cli.addOptions(linkStr)
-
-do {
-    try cli.parse()
-} catch {
-    cli.printUsage(error)
-    exit(EX_USAGE)
+Alamofire.download(downloadLink).responseData { response in
+    if let data = response.result.value {
+        
+    }
 }
-
-print("File path is \(linkStr.value!)")
