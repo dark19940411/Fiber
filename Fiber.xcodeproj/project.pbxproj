@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E474E3561F376BE600B58884 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E474E3551F376BE600B58884 /* StringHelper.swift */; };
 		OBJ_44 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CommandLine.swift */; };
 		OBJ_45 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Option.swift */; };
 		OBJ_46 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* StringExtensions.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E474E3551F376BE600B58884 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		OBJ_13 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		OBJ_15 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
@@ -176,7 +178,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -185,7 +187,6 @@
 				OBJ_11 /* Dependencies */,
 				OBJ_35 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -193,6 +194,7 @@
 			children = (
 				OBJ_8 /* FetchDownloadLink.swift */,
 				OBJ_9 /* main.swift */,
+				E474E3551F376BE600B58884 /* StringHelper.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -265,7 +267,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -282,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				E474E3561F376BE600B58884 /* StringHelper.swift in Sources */,
 				OBJ_44 /* CommandLine.swift in Sources */,
 				OBJ_45 /* Option.swift in Sources */,
 				OBJ_46 /* StringExtensions.swift in Sources */,
