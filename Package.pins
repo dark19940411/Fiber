@@ -14,6 +14,12 @@
       "version": "3.0.0-pre1"
     },
     {
+      "package": "Progress",
+      "reason": null,
+      "repositoryURL": "https://github.com/jkandzi/Progress.swift",
+      "version": "0.2.0"
+    },
+    {
       "package": "Rainbow",
       "reason": null,
       "repositoryURL": "https://github.com/onevcat/Rainbow",

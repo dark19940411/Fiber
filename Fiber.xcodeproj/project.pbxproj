@@ -7,139 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E48462891F38485100C39BB2 /* FiberDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E474E35E1F3847C300B58884 /* FiberDownload.swift */; };
-		OBJ_100 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* XcodeColorsSupport.swift */; };
-		OBJ_107 /* FetchDownloadLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* FetchDownloadLink.swift */; };
-		OBJ_108 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_109 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* StringHelper.swift */; };
-		OBJ_111 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CommandLineKit.framework */; };
-		OBJ_112 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Alamofire.framework */; };
-		OBJ_113 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Rainbow.framework */; };
-		OBJ_58 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* CommandLine.swift */; };
-		OBJ_59 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Option.swift */; };
-		OBJ_60 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* StringExtensions.swift */; };
-		OBJ_67 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AFError.swift */; };
-		OBJ_68 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Alamofire.swift */; };
-		OBJ_69 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DispatchQueue+Alamofire.swift */; };
-		OBJ_70 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* MultipartFormData.swift */; };
-		OBJ_71 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* NetworkReachabilityManager.swift */; };
-		OBJ_72 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Notifications.swift */; };
-		OBJ_73 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ParameterEncoding.swift */; };
-		OBJ_74 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Request.swift */; };
-		OBJ_75 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Response.swift */; };
-		OBJ_76 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ResponseSerialization.swift */; };
-		OBJ_77 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Result.swift */; };
-		OBJ_78 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ServerTrustPolicy.swift */; };
-		OBJ_79 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* SessionDelegate.swift */; };
-		OBJ_80 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* SessionManager.swift */; };
-		OBJ_81 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* TaskDelegate.swift */; };
-		OBJ_82 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Timeline.swift */; };
-		OBJ_83 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Validation.swift */; };
-		OBJ_90 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BackgroundColor.swift */; };
-		OBJ_91 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CodesParser.swift */; };
-		OBJ_92 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Color.swift */; };
-		OBJ_93 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ControlCode.swift */; };
-		OBJ_94 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ModesExtractor.swift */; };
-		OBJ_95 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* OutputTarget.swift */; };
-		OBJ_96 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Rainbow.swift */; };
-		OBJ_97 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* String+Rainbow.swift */; };
-		OBJ_98 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* StringGenerator.swift */; };
-		OBJ_99 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Style.swift */; };
+		OBJ_100 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModesExtractor.swift */; };
+		OBJ_101 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* OutputTarget.swift */; };
+		OBJ_102 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Rainbow.swift */; };
+		OBJ_103 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* String+Rainbow.swift */; };
+		OBJ_104 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* StringGenerator.swift */; };
+		OBJ_105 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Style.swift */; };
+		OBJ_106 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* XcodeColorsSupport.swift */; };
+		OBJ_113 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Progress.swift */; };
+		OBJ_114 /* ProgressElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ProgressElements.swift */; };
+		OBJ_115 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Utilities.swift */; };
+		OBJ_122 /* FetchDownloadLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* FetchDownloadLink.swift */; };
+		OBJ_123 /* FiberDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FiberDownload.swift */; };
+		OBJ_124 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_125 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* StringHelper.swift */; };
+		OBJ_127 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* CommandLineKit.framework */; };
+		OBJ_128 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Alamofire.framework */; };
+		OBJ_129 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Rainbow.framework */; };
+		OBJ_130 /* Progress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Progress.framework */; };
+		OBJ_64 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* CommandLine.swift */; };
+		OBJ_65 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Option.swift */; };
+		OBJ_66 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* StringExtensions.swift */; };
+		OBJ_73 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* AFError.swift */; };
+		OBJ_74 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Alamofire.swift */; };
+		OBJ_75 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* DispatchQueue+Alamofire.swift */; };
+		OBJ_76 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* MultipartFormData.swift */; };
+		OBJ_77 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* NetworkReachabilityManager.swift */; };
+		OBJ_78 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Notifications.swift */; };
+		OBJ_79 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ParameterEncoding.swift */; };
+		OBJ_80 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Request.swift */; };
+		OBJ_81 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Response.swift */; };
+		OBJ_82 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ResponseSerialization.swift */; };
+		OBJ_83 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Result.swift */; };
+		OBJ_84 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ServerTrustPolicy.swift */; };
+		OBJ_85 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* SessionDelegate.swift */; };
+		OBJ_86 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* SessionManager.swift */; };
+		OBJ_87 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* TaskDelegate.swift */; };
+		OBJ_88 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Timeline.swift */; };
+		OBJ_89 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Validation.swift */; };
+		OBJ_96 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* BackgroundColor.swift */; };
+		OBJ_97 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CodesParser.swift */; };
+		OBJ_98 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Color.swift */; };
+		OBJ_99 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ControlCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E474E3571F38185E00B58884 /* PBXContainerItemProxy */ = {
+		E484628A1F385A6400C39BB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_53;
+			remoteGlobalIDString = OBJ_59;
 			remoteInfo = CommandLineKit;
 		};
-		E474E3581F38185E00B58884 /* PBXContainerItemProxy */ = {
+		E484628B1F385A6400C39BB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_62;
+			remoteGlobalIDString = OBJ_68;
 			remoteInfo = Alamofire;
 		};
-		E474E3591F38185E00B58884 /* PBXContainerItemProxy */ = {
+		E484628C1F385A6400C39BB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_85;
+			remoteGlobalIDString = OBJ_91;
 			remoteInfo = Rainbow;
+		};
+		E484628D1F385A6400C39BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_108;
+			remoteInfo = Progress;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E474E35E1F3847C300B58884 /* FiberDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiberDownload.swift; sourceTree = "<group>"; };
-		OBJ_10 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
-		OBJ_14 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
-		OBJ_15 /* CodesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
-		OBJ_16 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ControlCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
-		OBJ_18 /* ModesExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
-		OBJ_19 /* OutputTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
-		OBJ_21 /* String+Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
-		OBJ_22 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		OBJ_24 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
-		OBJ_26 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
-		OBJ_27 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
-		OBJ_28 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		OBJ_29 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
-		OBJ_30 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		OBJ_32 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
-		OBJ_33 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		OBJ_35 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		OBJ_37 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		OBJ_38 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
-		OBJ_39 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		OBJ_40 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
-		OBJ_41 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
-		OBJ_42 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		OBJ_45 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
-		OBJ_46 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
-		OBJ_47 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		OBJ_49 /* CommandLineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_50 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_51 /* Rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_52 /* Fiber */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fiber; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_11 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		OBJ_16 /* ProgressElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressElements.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		OBJ_19 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		OBJ_20 /* CodesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ControlCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ModesExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
+		OBJ_24 /* OutputTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		OBJ_26 /* String+Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		OBJ_29 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
+		OBJ_31 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		OBJ_33 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		OBJ_35 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_42 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		OBJ_43 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		OBJ_44 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		OBJ_45 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		OBJ_50 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_52 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_54 /* CommandLineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_55 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_56 /* Rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_57 /* Progress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Progress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_58 /* Fiber */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fiber; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* FetchDownloadLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDownloadLink.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_9 /* FiberDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_101 /* Frameworks */ = {
+		OBJ_107 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_110 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_111 /* CommandLineKit.framework in Frameworks */,
-				OBJ_112 /* Alamofire.framework in Frameworks */,
-				OBJ_113 /* Rainbow.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_61 /* Frameworks */ = {
+		OBJ_116 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_84 /* Frameworks */ = {
+		OBJ_126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_127 /* CommandLineKit.framework in Frameworks */,
+				OBJ_128 /* Alamofire.framework in Frameworks */,
+				OBJ_129 /* Rainbow.framework in Frameworks */,
+				OBJ_130 /* Progress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -149,115 +172,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_11 /* Tests */ = {
+		OBJ_12 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_12 /* Dependencies */ = {
+		OBJ_13 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Rainbow 2.1.0 */,
-				OBJ_25 /* Alamofire 4.5.0 */,
-				OBJ_43 /* CommandLine 3.0.0-pre1 */,
+				OBJ_14 /* Progress 0.2.0 */,
+				OBJ_18 /* Rainbow 2.1.0 */,
+				OBJ_30 /* Alamofire 4.5.0 */,
+				OBJ_48 /* CommandLine 3.0.0-pre1 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_13 /* Rainbow 2.1.0 */ = {
+		OBJ_14 /* Progress 0.2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* BackgroundColor.swift */,
-				OBJ_15 /* CodesParser.swift */,
-				OBJ_16 /* Color.swift */,
-				OBJ_17 /* ControlCode.swift */,
-				OBJ_18 /* ModesExtractor.swift */,
-				OBJ_19 /* OutputTarget.swift */,
-				OBJ_20 /* Rainbow.swift */,
-				OBJ_21 /* String+Rainbow.swift */,
-				OBJ_22 /* StringGenerator.swift */,
-				OBJ_23 /* Style.swift */,
-				OBJ_24 /* XcodeColorsSupport.swift */,
+				OBJ_15 /* Progress.swift */,
+				OBJ_16 /* ProgressElements.swift */,
+				OBJ_17 /* Utilities.swift */,
+			);
+			name = "Progress 0.2.0";
+			path = ".build/checkouts/Progress.swift-9214689286208287740/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Rainbow 2.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* BackgroundColor.swift */,
+				OBJ_20 /* CodesParser.swift */,
+				OBJ_21 /* Color.swift */,
+				OBJ_22 /* ControlCode.swift */,
+				OBJ_23 /* ModesExtractor.swift */,
+				OBJ_24 /* OutputTarget.swift */,
+				OBJ_25 /* Rainbow.swift */,
+				OBJ_26 /* String+Rainbow.swift */,
+				OBJ_27 /* StringGenerator.swift */,
+				OBJ_28 /* Style.swift */,
+				OBJ_29 /* XcodeColorsSupport.swift */,
 			);
 			name = "Rainbow 2.1.0";
 			path = ".build/checkouts/Rainbow-4833422609927903952/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_25 /* Alamofire 4.5.0 */ = {
+		OBJ_30 /* Alamofire 4.5.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_26 /* AFError.swift */,
-				OBJ_27 /* Alamofire.swift */,
-				OBJ_28 /* DispatchQueue+Alamofire.swift */,
-				OBJ_29 /* MultipartFormData.swift */,
-				OBJ_30 /* NetworkReachabilityManager.swift */,
-				OBJ_31 /* Notifications.swift */,
-				OBJ_32 /* ParameterEncoding.swift */,
-				OBJ_33 /* Request.swift */,
-				OBJ_34 /* Response.swift */,
-				OBJ_35 /* ResponseSerialization.swift */,
-				OBJ_36 /* Result.swift */,
-				OBJ_37 /* ServerTrustPolicy.swift */,
-				OBJ_38 /* SessionDelegate.swift */,
-				OBJ_39 /* SessionManager.swift */,
-				OBJ_40 /* TaskDelegate.swift */,
-				OBJ_41 /* Timeline.swift */,
-				OBJ_42 /* Validation.swift */,
+				OBJ_31 /* AFError.swift */,
+				OBJ_32 /* Alamofire.swift */,
+				OBJ_33 /* DispatchQueue+Alamofire.swift */,
+				OBJ_34 /* MultipartFormData.swift */,
+				OBJ_35 /* NetworkReachabilityManager.swift */,
+				OBJ_36 /* Notifications.swift */,
+				OBJ_37 /* ParameterEncoding.swift */,
+				OBJ_38 /* Request.swift */,
+				OBJ_39 /* Response.swift */,
+				OBJ_40 /* ResponseSerialization.swift */,
+				OBJ_41 /* Result.swift */,
+				OBJ_42 /* ServerTrustPolicy.swift */,
+				OBJ_43 /* SessionDelegate.swift */,
+				OBJ_44 /* SessionManager.swift */,
+				OBJ_45 /* TaskDelegate.swift */,
+				OBJ_46 /* Timeline.swift */,
+				OBJ_47 /* Validation.swift */,
 			);
 			name = "Alamofire 4.5.0";
 			path = ".build/checkouts/Alamofire--7888903134044690114/Source";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_43 /* CommandLine 3.0.0-pre1 */ = {
+		OBJ_48 /* CommandLine 3.0.0-pre1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_44 /* CommandLineKit */,
+				OBJ_49 /* CommandLineKit */,
 			);
 			name = "CommandLine 3.0.0-pre1";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_44 /* CommandLineKit */ = {
+		OBJ_49 /* CommandLineKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_45 /* CommandLine.swift */,
-				OBJ_46 /* Option.swift */,
-				OBJ_47 /* StringExtensions.swift */,
+				OBJ_50 /* CommandLine.swift */,
+				OBJ_51 /* Option.swift */,
+				OBJ_52 /* StringExtensions.swift */,
 			);
 			name = CommandLineKit;
 			path = ".build/checkouts/CommandLine-2650396103741080200/CommandLineKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_48 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_49 /* CommandLineKit.framework */,
-				OBJ_50 /* Alamofire.framework */,
-				OBJ_51 /* Rainbow.framework */,
-				OBJ_52 /* Fiber */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_11 /* Tests */,
-				OBJ_12 /* Dependencies */,
-				OBJ_48 /* Products */,
+				OBJ_12 /* Tests */,
+				OBJ_13 /* Dependencies */,
+				OBJ_53 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_54 /* CommandLineKit.framework */,
+				OBJ_55 /* Alamofire.framework */,
+				OBJ_56 /* Rainbow.framework */,
+				OBJ_57 /* Progress.framework */,
+				OBJ_58 /* Fiber */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* FetchDownloadLink.swift */,
-				OBJ_9 /* main.swift */,
-				OBJ_10 /* StringHelper.swift */,
-				E474E35E1F3847C300B58884 /* FiberDownload.swift */,
+				OBJ_9 /* FiberDownload.swift */,
+				OBJ_10 /* main.swift */,
+				OBJ_11 /* StringHelper.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -265,31 +302,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_102 /* Fiber */ = {
+		OBJ_108 /* Progress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "Fiber" */;
+			buildConfigurationList = OBJ_109 /* Build configuration list for PBXNativeTarget "Progress" */;
 			buildPhases = (
-				OBJ_106 /* Sources */,
-				OBJ_110 /* Frameworks */,
+				OBJ_112 /* Sources */,
+				OBJ_116 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_114 /* PBXTargetDependency */,
-				OBJ_115 /* PBXTargetDependency */,
-				OBJ_116 /* PBXTargetDependency */,
+			);
+			name = Progress;
+			productName = Progress;
+			productReference = OBJ_57 /* Progress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_117 /* Fiber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_118 /* Build configuration list for PBXNativeTarget "Fiber" */;
+			buildPhases = (
+				OBJ_121 /* Sources */,
+				OBJ_126 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_131 /* PBXTargetDependency */,
+				OBJ_132 /* PBXTargetDependency */,
+				OBJ_133 /* PBXTargetDependency */,
+				OBJ_134 /* PBXTargetDependency */,
 			);
 			name = Fiber;
 			productName = Fiber;
-			productReference = OBJ_52 /* Fiber */;
+			productReference = OBJ_58 /* Fiber */;
 			productType = "com.apple.product-type.tool";
 		};
-		OBJ_53 /* CommandLineKit */ = {
+		OBJ_59 /* CommandLineKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
+			buildConfigurationList = OBJ_60 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
 			buildPhases = (
-				OBJ_57 /* Sources */,
-				OBJ_61 /* Frameworks */,
+				OBJ_63 /* Sources */,
+				OBJ_67 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,15 +351,15 @@
 			);
 			name = CommandLineKit;
 			productName = CommandLineKit;
-			productReference = OBJ_49 /* CommandLineKit.framework */;
+			productReference = OBJ_54 /* CommandLineKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_62 /* Alamofire */ = {
+		OBJ_68 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				OBJ_66 /* Sources */,
-				OBJ_84 /* Frameworks */,
+				OBJ_72 /* Sources */,
+				OBJ_90 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,15 +367,15 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = OBJ_50 /* Alamofire.framework */;
+			productReference = OBJ_55 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_85 /* Rainbow */ = {
+		OBJ_91 /* Rainbow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_86 /* Build configuration list for PBXNativeTarget "Rainbow" */;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "Rainbow" */;
 			buildPhases = (
-				OBJ_89 /* Sources */,
-				OBJ_101 /* Frameworks */,
+				OBJ_95 /* Sources */,
+				OBJ_107 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,7 +383,7 @@
 			);
 			name = Rainbow;
 			productName = Rainbow;
-			productReference = OBJ_51 /* Rainbow.framework */;
+			productReference = OBJ_56 /* Rainbow.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -347,105 +401,163 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_48 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_53 /* CommandLineKit */,
-				OBJ_62 /* Alamofire */,
-				OBJ_85 /* Rainbow */,
-				OBJ_102 /* Fiber */,
+				OBJ_59 /* CommandLineKit */,
+				OBJ_68 /* Alamofire */,
+				OBJ_91 /* Rainbow */,
+				OBJ_108 /* Progress */,
+				OBJ_117 /* Fiber */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_106 /* Sources */ = {
+		OBJ_112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				E48462891F38485100C39BB2 /* FiberDownload.swift in Sources */,
-				OBJ_107 /* FetchDownloadLink.swift in Sources */,
-				OBJ_108 /* main.swift in Sources */,
-				OBJ_109 /* StringHelper.swift in Sources */,
+				OBJ_113 /* Progress.swift in Sources */,
+				OBJ_114 /* ProgressElements.swift in Sources */,
+				OBJ_115 /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_57 /* Sources */ = {
+		OBJ_121 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_58 /* CommandLine.swift in Sources */,
-				OBJ_59 /* Option.swift in Sources */,
-				OBJ_60 /* StringExtensions.swift in Sources */,
+				OBJ_122 /* FetchDownloadLink.swift in Sources */,
+				OBJ_123 /* FiberDownload.swift in Sources */,
+				OBJ_124 /* main.swift in Sources */,
+				OBJ_125 /* StringHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_66 /* Sources */ = {
+		OBJ_63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_67 /* AFError.swift in Sources */,
-				OBJ_68 /* Alamofire.swift in Sources */,
-				OBJ_69 /* DispatchQueue+Alamofire.swift in Sources */,
-				OBJ_70 /* MultipartFormData.swift in Sources */,
-				OBJ_71 /* NetworkReachabilityManager.swift in Sources */,
-				OBJ_72 /* Notifications.swift in Sources */,
-				OBJ_73 /* ParameterEncoding.swift in Sources */,
-				OBJ_74 /* Request.swift in Sources */,
-				OBJ_75 /* Response.swift in Sources */,
-				OBJ_76 /* ResponseSerialization.swift in Sources */,
-				OBJ_77 /* Result.swift in Sources */,
-				OBJ_78 /* ServerTrustPolicy.swift in Sources */,
-				OBJ_79 /* SessionDelegate.swift in Sources */,
-				OBJ_80 /* SessionManager.swift in Sources */,
-				OBJ_81 /* TaskDelegate.swift in Sources */,
-				OBJ_82 /* Timeline.swift in Sources */,
-				OBJ_83 /* Validation.swift in Sources */,
+				OBJ_64 /* CommandLine.swift in Sources */,
+				OBJ_65 /* Option.swift in Sources */,
+				OBJ_66 /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Sources */ = {
+		OBJ_72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_90 /* BackgroundColor.swift in Sources */,
-				OBJ_91 /* CodesParser.swift in Sources */,
-				OBJ_92 /* Color.swift in Sources */,
-				OBJ_93 /* ControlCode.swift in Sources */,
-				OBJ_94 /* ModesExtractor.swift in Sources */,
-				OBJ_95 /* OutputTarget.swift in Sources */,
-				OBJ_96 /* Rainbow.swift in Sources */,
-				OBJ_97 /* String+Rainbow.swift in Sources */,
-				OBJ_98 /* StringGenerator.swift in Sources */,
-				OBJ_99 /* Style.swift in Sources */,
-				OBJ_100 /* XcodeColorsSupport.swift in Sources */,
+				OBJ_73 /* AFError.swift in Sources */,
+				OBJ_74 /* Alamofire.swift in Sources */,
+				OBJ_75 /* DispatchQueue+Alamofire.swift in Sources */,
+				OBJ_76 /* MultipartFormData.swift in Sources */,
+				OBJ_77 /* NetworkReachabilityManager.swift in Sources */,
+				OBJ_78 /* Notifications.swift in Sources */,
+				OBJ_79 /* ParameterEncoding.swift in Sources */,
+				OBJ_80 /* Request.swift in Sources */,
+				OBJ_81 /* Response.swift in Sources */,
+				OBJ_82 /* ResponseSerialization.swift in Sources */,
+				OBJ_83 /* Result.swift in Sources */,
+				OBJ_84 /* ServerTrustPolicy.swift in Sources */,
+				OBJ_85 /* SessionDelegate.swift in Sources */,
+				OBJ_86 /* SessionManager.swift in Sources */,
+				OBJ_87 /* TaskDelegate.swift in Sources */,
+				OBJ_88 /* Timeline.swift in Sources */,
+				OBJ_89 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* BackgroundColor.swift in Sources */,
+				OBJ_97 /* CodesParser.swift in Sources */,
+				OBJ_98 /* Color.swift in Sources */,
+				OBJ_99 /* ControlCode.swift in Sources */,
+				OBJ_100 /* ModesExtractor.swift in Sources */,
+				OBJ_101 /* OutputTarget.swift in Sources */,
+				OBJ_102 /* Rainbow.swift in Sources */,
+				OBJ_103 /* String+Rainbow.swift in Sources */,
+				OBJ_104 /* StringGenerator.swift in Sources */,
+				OBJ_105 /* Style.swift in Sources */,
+				OBJ_106 /* XcodeColorsSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_114 /* PBXTargetDependency */ = {
+		OBJ_131 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_53 /* CommandLineKit */;
-			targetProxy = E474E3571F38185E00B58884 /* PBXContainerItemProxy */;
+			target = OBJ_59 /* CommandLineKit */;
+			targetProxy = E484628A1F385A6400C39BB2 /* PBXContainerItemProxy */;
 		};
-		OBJ_115 /* PBXTargetDependency */ = {
+		OBJ_132 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_62 /* Alamofire */;
-			targetProxy = E474E3581F38185E00B58884 /* PBXContainerItemProxy */;
+			target = OBJ_68 /* Alamofire */;
+			targetProxy = E484628B1F385A6400C39BB2 /* PBXContainerItemProxy */;
 		};
-		OBJ_116 /* PBXTargetDependency */ = {
+		OBJ_133 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_85 /* Rainbow */;
-			targetProxy = E474E3591F38185E00B58884 /* PBXContainerItemProxy */;
+			target = OBJ_91 /* Rainbow */;
+			targetProxy = E484628C1F385A6400C39BB2 /* PBXContainerItemProxy */;
+		};
+		OBJ_134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_108 /* Progress */;
+			targetProxy = E484628D1F385A6400C39BB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_104 /* Debug */ = {
+		OBJ_110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fiber.xcodeproj/Progress_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Progress;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Progress;
+			};
+			name = Debug;
+		};
+		OBJ_111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fiber.xcodeproj/Progress_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Progress;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Progress;
+			};
+			name = Release;
+		};
+		OBJ_119 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -463,7 +575,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_105 /* Release */ = {
+		OBJ_120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -525,7 +637,7 @@
 			};
 			name = Release;
 		};
-		OBJ_55 /* Debug */ = {
+		OBJ_61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -546,7 +658,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_56 /* Release */ = {
+		OBJ_62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -567,7 +679,7 @@
 			};
 			name = Release;
 		};
-		OBJ_64 /* Debug */ = {
+		OBJ_70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -588,7 +700,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_65 /* Release */ = {
+		OBJ_71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -609,7 +721,7 @@
 			};
 			name = Release;
 		};
-		OBJ_87 /* Debug */ = {
+		OBJ_93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -630,7 +742,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_88 /* Release */ = {
+		OBJ_94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -654,11 +766,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_103 /* Build configuration list for PBXNativeTarget "Fiber" */ = {
+		OBJ_109 /* Build configuration list for PBXNativeTarget "Progress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_104 /* Debug */,
-				OBJ_105 /* Release */,
+				OBJ_110 /* Debug */,
+				OBJ_111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_118 /* Build configuration list for PBXNativeTarget "Fiber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_119 /* Debug */,
+				OBJ_120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -672,29 +793,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_54 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
+		OBJ_60 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_55 /* Debug */,
-				OBJ_56 /* Release */,
+				OBJ_61 /* Debug */,
+				OBJ_62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_63 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		OBJ_69 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_64 /* Debug */,
-				OBJ_65 /* Release */,
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_86 /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
+		OBJ_92 /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_87 /* Debug */,
-				OBJ_88 /* Release */,
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
