@@ -12,4 +12,8 @@ extension String {
     func turnToURL() -> URL? {
         return URL(string: self)
     }
+    
+    func turnToFileURL() -> URL {
+        return URL(fileURLWithPath: self)
+    }
 }
