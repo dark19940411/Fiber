@@ -1,8 +1,8 @@
 //
-//  FetchDownloadLink.swift
+//  FetchCommandLineParameters.swift
 //  Fiber
 //
-//  Created by turtle on 2017/8/4.
+//  Created by turtle on 2017/8/8.
 //
 //
 
@@ -55,3 +55,4 @@ func fetchCmdLineResult() -> CommandLineResult {
     
     return CommandLineResult(link: linkStr.value!, destination: dest.value ?? FileManager.default.currentDirectoryPath )
 }
+

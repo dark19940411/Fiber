@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4338F121F39961F00101673 /* FetchCommandLineParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4338F101F3995D400101673 /* FetchCommandLineParameters.swift */; };
 		OBJ_100 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModesExtractor.swift */; };
 		OBJ_101 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* OutputTarget.swift */; };
 		OBJ_102 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Rainbow.swift */; };
@@ -17,7 +18,6 @@
 		OBJ_113 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Progress.swift */; };
 		OBJ_114 /* ProgressElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ProgressElements.swift */; };
 		OBJ_115 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Utilities.swift */; };
-		OBJ_122 /* FetchDownloadLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* FetchDownloadLink.swift */; };
 		OBJ_123 /* FiberDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FiberDownload.swift */; };
 		OBJ_124 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
 		OBJ_125 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* StringHelper.swift */; };
@@ -83,6 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4338F101F3995D400101673 /* FetchCommandLineParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCommandLineParameters.swift; sourceTree = "<group>"; };
 		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_11 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
@@ -125,7 +126,6 @@
 		OBJ_57 /* Progress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Progress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_58 /* Fiber */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fiber; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* FetchDownloadLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDownloadLink.swift; sourceTree = "<group>"; };
 		OBJ_9 /* FiberDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,7 +264,7 @@
 			path = ".build/checkouts/CommandLine-2650396103741080200/CommandLineKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -273,7 +273,6 @@
 				OBJ_13 /* Dependencies */,
 				OBJ_53 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_53 /* Products */ = {
@@ -291,10 +290,10 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* FetchDownloadLink.swift */,
 				OBJ_9 /* FiberDownload.swift */,
 				OBJ_10 /* main.swift */,
 				OBJ_11 /* StringHelper.swift */,
+				E4338F101F3995D400101673 /* FetchCommandLineParameters.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -401,7 +400,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,7 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_122 /* FetchDownloadLink.swift in Sources */,
+				E4338F121F39961F00101673 /* FetchCommandLineParameters.swift in Sources */,
 				OBJ_123 /* FiberDownload.swift in Sources */,
 				OBJ_124 /* main.swift in Sources */,
 				OBJ_125 /* StringHelper.swift in Sources */,

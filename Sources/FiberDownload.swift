@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import Progress
+import Rainbow
 
 class FiberDownload {
     /// Singleton of FiberDownload
@@ -19,11 +20,7 @@ class FiberDownload {
     /// Because the actual applying queue of Alamorefire can't be got, and the main queue is blocked by semaphore while the downloading task is executing, FiberDownload has to possess its own queue to handle call-back
     fileprivate let handlerQueue = DispatchQueue(label: "com.turtle.Fiber.downloadHandlerQueue")
     /// The progress bar of Fiber
-    fileprivate var bar = ProgressBar(count: 101, configuration: [ProgressPercent(), ProgressBarLine(barLength: 60)])
-    
-    /// A downloaded count down(percentage), which is in [0, 100] (mathematic interval)
-    fileprivate var currentProgress: Int = 0
-    
+    fileprivate var bar = ProgressBar(count: 100, configuration: [ProgressPercent(), ProgressBarLine(barLength: 60)])
     
     fileprivate init() {}
     
@@ -40,9 +37,8 @@ class FiberDownload {
         let downloadRequest = Alamofire.download(sourceURL, to: destination)
         
         downloadRequest.response(queue: handlerQueue) { response in
-            if response.error == nil, let resource = response.destinationURL?.path {
-                
-            }
+            if let error = response.error { print(error.localizedDescription.red.bold) }
+            else { self.bar.setValue(0) }
             
             self.sema.signal()
         }
@@ -50,20 +46,12 @@ class FiberDownload {
         downloadRequest.downloadProgress(queue: handlerQueue) { progress in
             self.updateProgressBar(with: progress.fractionCompleted)
         }
-        bar.next()
         
         sema.wait()
     }
     
     fileprivate func updateProgressBar(with progress: Double) {
-        
         let downloadedFrac = Int(floor(progress * 100))
-        let progressSubstract = downloadedFrac - currentProgress
-        print("progress: \(progress)\n downloadedFrac: \(downloadedFrac)\ncurrentProgress: \(currentProgress)")
-        
-        for _ in 0..<progressSubstract {
-            bar.next()
-            currentProgress = downloadedFrac
-        }
+        bar.setValue(downloadedFrac)
     }
 }
